@@ -1,0 +1,9 @@
+body{
+    background-color: rgb(199, 219, 226);
+}
+label{
+    display: block;
+}
+div#buttons{
+    margin-top: 10px;
+}

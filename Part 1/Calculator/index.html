@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="../style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <h1>Calculator</h1>
+    <form name="calculatorForm">
+        <label for="number1">First number</label>
+        <input type="number" placeholder="Type in.." name="number1">
+        <label for="number1">Second number</label>
+        <input type="number" placeholder="Type in.." name="number2">
+        <div id="buttons">
+            <input type="button" value="Add" onclick="calculatorFormHandler(this.form, this.value)">
+            <input type="button" value="Substract" onclick="calculatorFormHandler(this.form, this.value)">
+            <input type="button" value="Multiply" onclick="calculatorFormHandler(this.form, this.value)">
+            <input type="button" value="Divide" onclick="calculatorFormHandler(this.form, this.value)">
+        </div>
+    </form>
+    <span id="operationResult"></span>
+</body>
+</html>
