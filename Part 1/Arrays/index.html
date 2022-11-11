@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arrays</title>
+    <link rel="stylesheet" href="../style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <h1>Arrays</h1>
+    <form name="arraysForm">
+        <label for="array">Array elements separated by a comma,<br/>either only number or only text values</label>
+        <input type="text" placeholder="Type in.." name="array">
+        <div id="buttons">
+            <input type="button" value="Submit" onclick="arraysFormHandler(this.form)">
+        </div>
+    </form>
+    <span>Returns second biggest number if contains numbers,<br>
+    and second longest word if contains words.</span>
+    <span id="result"></span>
+</body>
+</html>
