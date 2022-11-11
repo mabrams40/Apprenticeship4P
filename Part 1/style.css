@@ -7,3 +7,7 @@ label{
 div#buttons{
     margin-top: 10px;
 }
+span#result{
+    display: inline-block;
+    margin-top: 10px;
+}
