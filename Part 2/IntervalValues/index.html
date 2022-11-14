@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interval Values</title>
+    <link rel="stylesheet" href="../style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <h1>Interval Values</h1>
+    <form name="intervalForm">
+        <label for="beginning">Beggining at</label>
+        <input type="number" placeholder="Type in.." name="beginning">
+        <label for="ending">Ending at</label>
+        <input type="number" placeholder="Type in.." name="ending">
+        <div id="buttons">
+            <input type="button" value="Check" onclick="intervalFormHandler(this.form)">
+        </div>
+    </form>
+    <span>Returns all integer values included inside the provided interval.</span>
+    <span id="result"></span>
+</body>
+</html>
