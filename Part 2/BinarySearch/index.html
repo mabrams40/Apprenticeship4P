@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Binary Search</title>
+    <link rel="stylesheet" href="../style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <h1>Interval Values</h1>
+    <form>
+        <label for="array">Comma-separated numbers (ascending order)</label>
+        <input type="text" placeholder="Type in.." name="array">
+        <label for="search">Search for</label>
+        <input type="number" placeholder="Type in.." name="search">
+        <div id="buttons">
+            <input type="button" value="Check" onclick="formHandler(this.form)">
+        </div>
+    </form>
+    <span>Returns index of the element if found, otherwise a proper message.</span>
+    <span id="result"></span>
+</body>
+</html>
