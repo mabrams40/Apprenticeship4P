@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arrays Connector</title>
+    <link rel="stylesheet" href="../style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <h1>Arrays Connector</h1>
+    <form>
+        <label for="array1">Array elements (comma-separated)</label>
+        <input type="text" placeholder="Type in.." name="array1">
+        <label for="array2">Array elements (comma-separated)</label>
+        <input type="text" placeholder="Type in.." name="array2">
+        <div id="buttons">
+            <input type="button" value="Check" onclick="formHandler(this.form)">
+        </div>
+    </form>
+    <span>Returns connected arrays</span>
+    <span id="result"></span>
+</body>
+</html>
